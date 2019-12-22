@@ -1,1 +1,12 @@
 /* css file for car.html */
+body{
+    margin: 0;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.night{
+    height: 100vh;
+    width: 80%;
+}
