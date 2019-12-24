@@ -15,3 +15,15 @@ body{
     position: relative;
     box-shadow: 1px 2px 60px rgb(32,32,32);
 }
+
+.surface{
+    height: 140px;
+    width: 500%;
+    background: url(assets/Img_02.png);
+    bottom: 0%;
+    display: block;
+    position: absolute;
+    background-repeat: repeat-x;
+    left: 0%;
+    
+}
