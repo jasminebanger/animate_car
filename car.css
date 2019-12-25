@@ -39,3 +39,10 @@ body{
 .suspension{
     animation: suspension 1s linear infinite;
 }
+
+@keyframes moveRight{
+    100%
+    {
+        transform: translateX(-2950px);
+    }
+}
