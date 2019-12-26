@@ -46,3 +46,8 @@ body{
         transform: translateX(-2950px);
     }
 }
+
+@keyframes suspension{
+    100%{transform: translateY(-1px);}
+    50%{transform: translateY(2px);}
+}
