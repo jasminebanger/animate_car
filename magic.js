@@ -5,6 +5,7 @@ $(document).ready(function(){
   $car = $('.car');
   $img = $('.carimg');
   let flag = true;
+  const cars = ['assets/Img_05.png','assets/Img_06.png'];
   
   //keypress events
   $(document).on('keypress',function(e){
