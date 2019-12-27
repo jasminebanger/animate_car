@@ -12,4 +12,8 @@ $(document).ready(function(){
                     $($surface).toggleClass('moveRight');
                     $($car).toggleClass('suspension');
                 }
+    
+    $(document).on('keypress',function(e){
+      
+    });
 });
