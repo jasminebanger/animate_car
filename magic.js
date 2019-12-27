@@ -14,6 +14,11 @@ $(document).ready(function(){
                 }
     
     $(document).on('keypress',function(e){
-      
+      if(e.which == 13){
+                        if(flag){
+                            flag = false;
+                            $img.attr('src', cars[0]);
+                        }
+      }
     });
 });
