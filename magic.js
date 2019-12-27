@@ -19,6 +19,10 @@ $(document).ready(function(){
                             flag = false;
                             $img.attr('src', cars[0]);
                         }
+                        else{
+                            flag = true;
+                            $img.attr('src', cars[1]);
+                        }
       }
     });
 });
