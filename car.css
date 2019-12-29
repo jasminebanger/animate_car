@@ -1,4 +1,5 @@
 /* css file for car.html */
+/* css for body tag */
 body{
     margin: 0;
     background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
@@ -6,6 +7,7 @@ body{
     overflow-x: hidden;
 }
 
+/* css for background/ class 'night' */ 
 .night{
     height: 100vh;
     width: 80%;
