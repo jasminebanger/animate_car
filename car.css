@@ -18,6 +18,7 @@ body{
     box-shadow: 1px 2px 60px rgb(32,32,32);
 }
 
+/* css for surface/road of car */
 .surface{
     height: 140px;
     width: 500%;
@@ -28,13 +29,15 @@ body{
     background-repeat: repeat-x;
     left: 0%;    
 }
-
+ 
+/* css for car */
 .car{
     position: absolute;
     bottom: 5.8%;
     left: 24%;    
 }
 
+/* css for classes 'moveRight' and 'suspension' */
 .moveRight{
     animation: moveRight 6s linear infinite;
 }
@@ -42,6 +45,7 @@ body{
     animation: suspension 1s linear infinite;
 }
 
+/* css for transforming the car */
 @keyframes moveRight{
     100%
     {
