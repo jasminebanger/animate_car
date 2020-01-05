@@ -15,6 +15,7 @@ $(document).ready(function(){
                 }
   });
     
+  // this is onkeypress event for stop and start the car by pressing 'enter'
     $(document).on('keypress',function(e){
       if(e.which == 13){
         if(flag){
