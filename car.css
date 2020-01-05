@@ -45,7 +45,7 @@ body{
     animation: suspension 1s linear infinite;
 }
 
-/* css for transforming the car */
+/* css for transforming the car for class 'moveRight' */
 @keyframes moveRight{
     100%
     {
