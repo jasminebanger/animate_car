@@ -52,7 +52,7 @@ body{
         transform: translateX(-2950px);
     }
 }
-
+/* css for transforming the car for class 'suspension' */
 @keyframes suspension{
     100%{
         transform: translateY(-1px);
